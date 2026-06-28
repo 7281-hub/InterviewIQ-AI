@@ -1,7 +1,9 @@
+import Navbar from "./components/layout/Navbar";
+
 function App() {
   return (
-    <div>
-      <h1>Master Every Interview with AI</h1>
+    <div className="min-h-screen bg-slate-100">
+      <Navbar />
     </div>
   );
 }
