@@ -1,6 +1,8 @@
 import Navbar from "./components/layout/Navbar";
 import Hero from "./components/home/Hero";
 import Features from "./components/home/Features";
+import HowItWorks from "./components/home/HowItWorks";
+import Stats from "./components/home/Stats";
 
 function App() {
   return (
@@ -8,6 +10,8 @@ function App() {
       <Navbar />
       <Hero />
       <Features />
+      <HowItWorks />
+      <Stats />
     </div>
   );
 }
